@@ -101,9 +101,9 @@ else if (computerMove==='scissor')
     updatescoreElement();
 document.querySelector('.js-result').innerHTML=result;
 document.querySelector('.js-move').innerHTML=`you
-            <img src="images/${playerMove}-emoji.png" alt="Rock" width="50px" height="50px">
+            <img src="${playerMove}-emoji.png" alt="Rock" width="50px" height="50px">
            
-            <img src="images/${computerMove}-emoji.png" alt="scissors" width="50px" height="50px">
+            <img src="${computerMove}-emoji.png" alt="scissors" width="50px" height="50px">
             computer`;
      
         
